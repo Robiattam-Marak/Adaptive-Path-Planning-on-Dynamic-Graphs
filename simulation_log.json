@@ -1,0 +1,99 @@
+[
+  {
+    "step": 1,
+    "carA": {
+      "pos": 0,
+      "edge_from": 0,
+      "edge_to": 10,
+      "progress": 1.0,
+      "path": [
+        0,
+        10,
+        20,
+        48
+      ]
+    },
+    "carB": {
+      "pos": 49,
+      "edge_from": null,
+      "edge_to": null,
+      "progress": 0,
+      "path": []
+    },
+    "caught": false,
+    "reached": false,
+    "log_events": [
+      {
+        "type": "blockage",
+        "edge": [
+          15,
+          9
+        ],
+        "steps": 4
+      },
+      {
+        "type": "oneway",
+        "edge": [
+          6,
+          3
+        ]
+      },
+      {
+        "type": "traffic",
+        "edge": [
+          14,
+          12
+        ],
+        "steps": 3
+      },
+    ]
+  },
+  {
+    "step": 2,
+    "carA": {
+      "pos": 0,
+      "edge_from": 0,
+      "edge_to": 10,
+      "progress": 2.0,
+      "path": [
+        10,
+        20,
+        48
+      ]
+    },
+    "carB": {
+      "pos": 49,
+      "edge_from": null,
+      "edge_to": null,
+      "progress": 0,
+      "path": []
+    },
+    "caught": false,
+    "reached": false,
+    "log_events": [
+      {
+        "type": "blockage",
+        "edge": [
+          15,
+          9
+        ],
+        "steps": 3
+      },
+      {
+        "type": "oneway",
+        "edge": [
+          6,
+          3
+        ]
+      },
+      {
+        "type": "traffic",
+        "edge": [
+          14,
+          12
+        ],
+        "steps": 2
+      }
+    ]
+  }
+]
